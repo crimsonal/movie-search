@@ -7,7 +7,7 @@ function MovieCard({movie}) {
                 <p>{movie.Title}</p>
             </div>
             <div>
-                <img src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/400"} alt={movie.Title}></img>
+                <img src={movie.Poster !== "N/A" ? movie.Poster : "https://dummyimage.com/300x400/000/fff.png?text=No+image"} alt={movie.Title}></img>
             </div>
             <div>
                 <span>{movie.Type}</span>
